@@ -1,4 +1,4 @@
-import MainContainer from './components/mainContainer/mainContainer'
+import MainContainer from '/src/components/mainContainer/mainContainer'
 import './App.css'
 
 function App() {
