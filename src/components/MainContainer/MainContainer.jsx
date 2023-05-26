@@ -35,19 +35,19 @@ function MainContainer() {
         modules={[EffectCoverflow, Pagination]}
         className={(desktop ? "mySwiper" : "swiperDesktop")}
       >
-        <SwiperSlide><img src="\src\assets\tokyotower-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\coolstairs-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\crabsign-w.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\food1-w.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\food2-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\garden-w.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\iconicDogStatue-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\manga-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\merch1-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\mountains-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\food3-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\food5-s.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="\src\assets\robowaiter-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\tokyotower-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\coolstairs-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\crabsign-w.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\food1-w.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\food2-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\garden-w.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\iconicDogStatue-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\manga-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\merch1-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\mountains-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\food3-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\food5-s.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="\robowaiter-s.jpg" /></SwiperSlide>
       </Swiper>
             <Navbar/>
         </div>
