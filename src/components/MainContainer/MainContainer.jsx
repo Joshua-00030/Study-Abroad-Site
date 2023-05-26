@@ -2,6 +2,7 @@ import './MainContainer.css'
 import MainContent from '../MainContent/MainContent'
 import Sidebar from '../Sidebar/Sidebar'
 import Navbar from '../Navbar/Navbar'
+import "swiper/react"
 import { Swiper, SwiperSlide } from "swiper/react"
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper"
