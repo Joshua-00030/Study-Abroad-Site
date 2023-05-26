@@ -1,0 +1,9 @@
+.Navbar{
+    background-color: brown;
+    color:white;
+    max-height: 200px;
+    min-height: 4rem;
+}
+.Navbar p{
+    margin: 0px;
+}

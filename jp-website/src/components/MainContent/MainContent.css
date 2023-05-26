@@ -1,0 +1,36 @@
+.MainContent{
+    color:white;
+    background-color: black;
+    min-width: 300px;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop{
+    width: 80%;
+}
+
+.story{
+    color: white;
+    background-color: cornflowerblue;
+    margin: .3rem;
+}
+.storyDesktop{
+    color: white;
+    background-color: cornflowerblue;
+    margin: .3rem;
+    display: flex;
+    align-content: center;
+    flex-wrap:nowrap;
+}
+.storyImage{
+    max-width: 80%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.storyImageDesktop{
+    padding: 1rem;
+    max-width: 20%;
+}
