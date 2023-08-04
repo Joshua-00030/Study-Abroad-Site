@@ -1,32 +1,37 @@
 .MainContent{
-    color:white;
-    background-color: black;
+    color: black;
+    background-color: antiquewhite;
     min-width: 300px;
     width:95%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:2rem;
+}
+
+.MainContent h2,h1{
+    text-align: center;
 }
 
 .desktop{
     width: 80%;
+    margin-left: 50px;
 }
 
 .story{
-    color: white;
-    background-color: cornflowerblue;
-    margin: .3rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border-top: .25rem solid;
 }
 .storyDesktop{
-    color: white;
-    background-color: cornflowerblue;
-    margin: .3rem;
     display: flex;
     align-content: center;
     flex-wrap:nowrap;
+    border-top: .25rem solid;
 }
 .storyImage{
     max-width: 80%;
-    padding: 1rem;
+    padding-top: .5rem;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }

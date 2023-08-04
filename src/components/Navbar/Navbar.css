@@ -3,6 +3,10 @@
     color:white;
     max-height: 200px;
     min-height: 4rem;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+    padding-right: 1rem;
 }
 .Navbar p{
     margin: 0px;

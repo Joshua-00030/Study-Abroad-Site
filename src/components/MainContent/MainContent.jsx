@@ -7,17 +7,26 @@ function MainContent() {
     const desktop = window.innerWidth < 600 ? true : false
     return (
         <div className={(desktop ? 'MainContent' : 'MainContent desktop')}>
+            <h1>Title</h1>
             <div className={(desktop ? 'story' : 'storyDesktop')}>
+            {(desktop ?<h2>Street Shops</h2>:<></>)}
             <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\crabsign-w.jpg" />
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et. Malesuada fames ac turpis egestas sed tempus urna. Ipsum consequat nisl vel pretium lectus quam id leo in. Sed felis eget velit aliquet. Eget arcu dictum varius duis at consectetur lorem donec. Arcu odio ut sem nulla pharetra diam sit amet. Tellus pellentesque eu tincidunt tortor aliquam. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aliquam id diam maecenas ultricies mi. Adipiscing diam donec adipiscing tristique risus nec feugiat. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Sem integer vitae justo eget magna. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis.
-                </p>
+            <div>
+            {(!desktop ?<h2>Street Shops</h2>:<></>)}
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et. Malesuada fames ac turpis egestas sed tempus urna. Ipsum consequat nisl vel pretium lectus quam id leo in. Sed felis eget velit aliquet. Eget arcu dictum varius duis at consectetur lorem donec. Arcu odio ut sem nulla pharetra diam sit amet. Tellus pellentesque eu tincidunt tortor aliquam. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aliquam id diam maecenas ultricies mi. Adipiscing diam donec adipiscing tristique risus nec feugiat. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Sem integer vitae justo eget magna. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis.
+                    </p>
+            </div>
             </div>
             <div className={(desktop ? 'story' : 'storyDesktop')}>
+            {(desktop ?<h2>Dining Experience</h2>:<></>)}
             <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\food3-s.jpg" />
+            <div>
+            {(!desktop ?<h2>Dining Experience</h2>:<></>)}
                 <p>
                     At tempor commodo ullamcorper a lacus vestibulum sed arcu. Tincidunt lobortis feugiat vivamus at augue eget. Sit amet est placerat in egestas erat imperdiet. Quam nulla porttitor massa id. Quis risus sed vulputate odio ut enim blandit volutpat maecenas. Quam nulla porttitor massa id. Pulvinar mattis nunc sed blandit libero volutpat sed. Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Nunc congue nisi vitae suscipit. Id semper risus in hendrerit gravida rutrum quisque.
                 </p>
+            </div>
             </div>
             <div className={(desktop ? 'story' : 'storyDesktop')}>
             <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\food1-w.jpg" />
