@@ -4,17 +4,20 @@ import Sidebar from '../Sidebar/Sidebar'
 import Navbar from '../Navbar/Navbar'
 import { Swiper, SwiperSlide } from "swiper/react"
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper"
+import { EffectCoverflow, Navigation, Pagination, Mousewheel, Keyboard } from "swiper"
 import "swiper/css"
+import { useState } from 'react'
 
 function MainContainer() {
     const desktop = window.innerWidth < 600 ? true : false
+    const [page,setPage] = useState(0)
+
     return (
         <div className='MainContainer'>
-            <Navbar/>
+            <Navbar page={page} setPage={setPage}/>
             <div className='ContentContainer'>
 
-            <MainContent/>
+            <MainContent page={page}/>
             {(window.innerWidth > 600 && <Sidebar/>)
             }
             </div>
@@ -24,15 +27,16 @@ function MainContainer() {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={desktop ? 2:4}
+        navigation={true}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
           depth: 100,
           modifier: 1,
           slideShadows: true,
-        }}
+        }} 
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Navigation, Pagination, Mousewheel, Keyboard]}
         className={(desktop ? "mySwiper" : "swiperDesktop")}
       >
         <SwiperSlide><img src="\tokyotower-s.jpg" /></SwiperSlide>
