@@ -3,7 +3,6 @@
     padding: 0px;
     color: white;
     width: 100%;
-    display: grid;
 }
 
 .ContentContainer {
@@ -16,8 +15,8 @@
 }
 
 .swiperDesktop {
-    width: 1664px;
-    height: 550px;
+    width: 60vw;
+    height: 60vh;
 }
 
 .swiper-slide {

@@ -11,10 +11,10 @@ import Nature from '../Pages/Nature';
 function MainContent({page}) {
     const desktop = window.innerWidth < 600 ? true : false
     const pages = [
-        <Culture desktop={desktop}/>,
-        <Food desktop={desktop}/>,
-        <Grants desktop={desktop}/>,
-        <Nature desktop={desktop}/>]
+        <Culture key={1} desktop={desktop}/>,
+        <Nature key={4} desktop={desktop}/>,
+        <Food key={2} desktop={desktop}/>,
+        <Grants key={3} desktop={desktop}/>]
     return (
         <div className={(desktop ? 'MainContent' : 'MainContent desktop')}>
             {pages[page]}

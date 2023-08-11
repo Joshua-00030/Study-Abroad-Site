@@ -5,9 +5,16 @@
     min-height: 4rem;
     display: flex;
     justify-content: end;
-    gap: 3rem;
     padding-right: 1rem;
 }
 .Navbar p{
     margin: 0px;
+}
+
+.Navbar h3{
+    margin: 0px;
+    padding: 1rem;
+}
+.Navbar h3:hover{
+    background-color: rgb(123, 39, 39);
 }
