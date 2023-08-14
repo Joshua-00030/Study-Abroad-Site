@@ -6,17 +6,18 @@ import Culture from '../Pages/Culture';
 import Food from '../Pages/Food';
 import Grants from '../Pages/Grants';
 import Nature from '../Pages/Nature';
+import Tips from '../Pages/Tips';
 
 
-function MainContent({page}) {
-    const desktop = window.innerWidth < 600 ? true : false
+function MainContent({page, desktop}) {
     const pages = [
         <Culture key={1} desktop={desktop}/>,
-        <Nature key={4} desktop={desktop}/>,
-        <Food key={2} desktop={desktop}/>,
-        <Grants key={3} desktop={desktop}/>]
+        <Nature key={2} desktop={desktop}/>,
+        <Food key={3} desktop={desktop}/>,
+        <Tips key={4} desktop={desktop}/>,
+        <Grants key={5} desktop={desktop}/>]
     return (
-        <div className={(desktop ? 'MainContent' : 'MainContent desktop')}>
+        <div className={(desktop ? 'MainContent desktop' : 'MainContent')}>
             {pages[page]}
         </div>
     )

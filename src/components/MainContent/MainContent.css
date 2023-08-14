@@ -20,13 +20,13 @@
 .story{
     padding-left: .3rem;
     padding-right: .3rem;
-    border-top: .25rem solid;
+    border-top: .1rem solid;
 }
 .storyDesktop{
     display: flex;
     align-content: center;
     flex-wrap:nowrap;
-    border-top: .25rem solid;
+    border-top: .1rem solid;
 }
 .storyImage{
     max-width: 80%;

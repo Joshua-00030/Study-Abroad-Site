@@ -4,17 +4,36 @@
     max-height: 200px;
     min-height: 4rem;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     padding-right: 1rem;
+}
+.nav-mobile{
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+.right{
+    display: flex;
+}
+.left{
+    display: flex;
 }
 .Navbar p{
     margin: 0px;
 }
-
 .Navbar h3{
     margin: 0px;
     padding: 1rem;
 }
-.Navbar h3:hover{
+.right h3:hover, .nav-mobile h3:hover{
     background-color: rgb(123, 39, 39);
+}
+.nav-mobile ul{
+    margin-top: 0rem;
+    width: inherit;
+}
+.nav-mobile h3{
+    padding: .1rem;
 }

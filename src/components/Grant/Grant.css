@@ -1,0 +1,11 @@
+.grant{
+    display: block;
+    width: 100%;
+}
+.grant h4{
+    text-align: center;
+    margin: 0;
+}
+.grant p{
+    margin: 0px;
+}

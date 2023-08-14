@@ -2,4 +2,9 @@
     color:black;
     width: 20%;
     background-color: antiquewhite;
+    padding-left: .25rem;
+}
+.Sidebar li, ul{
+    padding: 0px;
+    list-style-type: none;
 }

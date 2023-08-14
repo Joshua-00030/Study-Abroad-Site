@@ -9,15 +9,15 @@ import "swiper/css"
 import { useState } from 'react'
 
 function MainContainer() {
-  const desktop = window.innerWidth < 600 ? true : false
+  const desktop = window.innerWidth > 900 ? true : false
   const [page, setPage] = useState(0)
 
   return (
     <div className='MainContainer'>
-      <Navbar setPage={setPage} />
+      <Navbar setPage={setPage} desktop={desktop}/>
       <div className='ContentContainer'>
-        <MainContent page={page} />
-        {(window.innerWidth > 600 && <Sidebar />)
+        <MainContent page={page} desktop={desktop} />
+        {(desktop && <Sidebar />)
         }
       </div>
 
@@ -25,7 +25,7 @@ function MainContainer() {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={desktop ? 2 : 4}
+        slidesPerView={desktop ? 4 : 2}
         navigation={true}
         coverflowEffect={{
           rotate: 50,
@@ -36,7 +36,7 @@ function MainContainer() {
         }}
         pagination={true}
         modules={[EffectCoverflow, Navigation, Pagination, Mousewheel, Keyboard]}
-        className={(desktop ? "mySwiper" : "swiperDesktop")}
+        className={(desktop ? "swiperDesktop" : "mySwiper")}
       >
         <SwiperSlide><img src="\tokyotower-s.jpg" /></SwiperSlide>
         <SwiperSlide><img src="\coolstairs-s.jpg" /></SwiperSlide>
@@ -52,7 +52,6 @@ function MainContainer() {
         <SwiperSlide><img src="\food5-s.jpg" /></SwiperSlide>
         <SwiperSlide><img src="\robowaiter-s.jpg" /></SwiperSlide>
       </Swiper>
-      <Navbar />
     </div>
   )
 }

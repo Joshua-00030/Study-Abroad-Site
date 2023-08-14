@@ -1,47 +1,39 @@
-function Culture({desktop}){
+import Grant from "../Grant/Grant"
+
+function Grants({desktop}){
+    const scholarships = [
+        {
+        "Name":"Gilman",
+        "Link":"https://www.gilmanscholarship.org/program/gilman-mccain-scholarships/",
+        "Story": <p>The U.S. Department of State’s Gilman-McCain Scholarship provides awards of $5,000 for undergraduate child and spousal dependents of active or activated United States military personnel during the time of application (including Air Force, Air Force Reserve, Air National Guard, Army, Army National Guard, Army Reserve, Coast Guard, Coast Guard Reserve, Marine Corps, Marine Corps Reserve, Navy, Navy Reserve, Space Force, NOAA Commissioned Corps, and USPHS Commissioned Corps) to study or intern abroad on credit-bearing programs. Developed under the framework of the State Department’s Benjamin A. Gilman International Scholarship Program, the John S. McCain International Scholarship for Military Families (Gilman-McCain Scholarship) is open to eligible students enrolled at accredited U.S. colleges and universities who receive any type of Title IV federal financial aid.</p>
+        },
+        {
+        "Name":"International Education Fund",
+        "Link":"http://studyabroad.utsa.edu/?go=IEF",
+        "Story": <p>The University of Texas at San Antonio awards study abroad scholarships through the International Education Fund. These scholarships range from $300 to $1,500 per student. Applications for the scholarship are assessed on the quality of several short essays and the student's demonstrated need. Applications are evaluated by the UTSA International Education Fund Committee.</p>
+        },
+        {
+        "Name":"UTSA Scholarship Hub",
+        "Link":"https://utsa.academicworks.com/",
+        "Story": <p>UTSA students are offered many different scholarships, many of which are placed in this database. Students can quickly search for specific scholarships to suit their needs. These will be semester specific and must be found independently to match the students academic goals. This can be used in conjunction with <a href="https://colfa.utsa.edu/modern-languages/students/scholarships.html">the COLFA scholarship page</a> to quickly find suitable scholarships`</p>
+    },
+    {
+    "Name":"Boren Awards",
+    "Link":"https://www.borenawards.org/eligible-programs",
+    "Story": <p>The Boren Awards fund the intensive study of language and culture abroad by U.S. undergraduate or graduate students. All eligible applicants have the option to either apply for a Regional Flagship Language Initiative or select/design their own study program.</p>
+    },
+    {
+    "Name":"Critical Language Scholarship",
+    "Link":"https://clscholarship.org/",
+    "Story": <p>CLS Program institutes cover approximately one academic year of university-level language coursework during an eight- to ten-week program and are designed to meet the needs of students from a variety of language levels and backgrounds. Some CLS institutes require one to two years of prior language study (or the equivalent), while others accept students with no prior background in the language.</p>
+    }
+    ]
     return (
         <>
         <h1>Grants</h1>
-            <div className={(desktop ? 'story' : 'storyDesktop')}>
-            {(desktop ?<h2>Street Shops</h2>:<></>)}
-            <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\crabsign-w.jpg" />
-            <div>
-            {(!desktop ?<h2>Street Shops</h2>:<></>)}
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et. Malesuada fames ac turpis egestas sed tempus urna. Ipsum consequat nisl vel pretium lectus quam id leo in. Sed felis eget velit aliquet. Eget arcu dictum varius duis at consectetur lorem donec. Arcu odio ut sem nulla pharetra diam sit amet. Tellus pellentesque eu tincidunt tortor aliquam. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aliquam id diam maecenas ultricies mi. Adipiscing diam donec adipiscing tristique risus nec feugiat. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Sem integer vitae justo eget magna. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis.
-                    </p>
-            </div>
-            </div>
-            <div className={(desktop ? 'story' : 'storyDesktop')}>
-            {(desktop ?<h2>Dining Experience</h2>:<></>)}
-            <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\food3-s.jpg" />
-            <div>
-            {(!desktop ?<h2>Dining Experience</h2>:<></>)}
-                <p>
-                    At tempor commodo ullamcorper a lacus vestibulum sed arcu. Tincidunt lobortis feugiat vivamus at augue eget. Sit amet est placerat in egestas erat imperdiet. Quam nulla porttitor massa id. Quis risus sed vulputate odio ut enim blandit volutpat maecenas. Quam nulla porttitor massa id. Pulvinar mattis nunc sed blandit libero volutpat sed. Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Nunc congue nisi vitae suscipit. Id semper risus in hendrerit gravida rutrum quisque.
-                </p>
-            </div>
-            </div>
-            <div className={(desktop ? 'story' : 'storyDesktop')}>
-            <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\food1-w.jpg" />
-                <p>
-                    Consectetur lorem donec massa sapien. Semper viverra nam libero justo laoreet. Viverra accumsan in nisl nisi scelerisque eu. At ultrices mi tempus imperdiet nulla malesuada. Eu augue ut lectus arcu bibendum at varius vel. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Euismod lacinia at quis risus sed vulputate odio ut. Vitae congue eu consequat ac felis donec et odio pellentesque. Ultricies mi quis hendrerit dolor magna eget est. Sed enim ut sem viverra aliquet eget sit amet. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Pellentesque diam volutpat commodo sed egestas. Euismod elementum nisi quis eleifend. Est velit egestas dui id ornare arcu odio ut sem. Amet risus nullam eget felis eget nunc. Aliquam faucibus purus in massa. Velit euismod in pellentesque massa placerat duis ultricies. Quis risus sed vulputate odio ut.
-                </p>
-            </div>
-            <div className={(desktop ? 'story' : 'storyDesktop')}>
-            <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\naradeer-s.jpg" />
-                <p>
-                    Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Vulputate odio ut enim blandit. Vitae elementum curabitur vitae nunc. Nunc sed augue lacus viverra vitae congue eu consequat. Mi quis hendrerit dolor magna eget est. Quis hendrerit dolor magna eget est lorem. Neque convallis a cras semper auctor neque vitae tempus quam. Interdum consectetur libero id faucibus nisl tincidunt eget. Amet facilisis magna etiam tempor orci eu. Sapien eget mi proin sed libero enim sed. Sit amet tellus cras adipiscing enim eu turpis egestas. Nunc sed blandit libero volutpat. Molestie at elementum eu facilisis sed odio morbi quis.
-                </p>
-            </div>
-            <div className={(desktop ? 'story' : 'storyDesktop')}>
-            <img className={(desktop ? 'storyImage' : 'storyImageDesktop')} src="\food6-w.jpg" />
-                <p>
-                    Viverra ipsum nunc aliquet bibendum enim facilisis gravida. Iaculis eu non diam phasellus vestibulum lorem. Elementum facilisis leo vel fringilla est ullamcorper. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Odio euismod lacinia at quis risus sed. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Aliquet lectus proin nibh nisl. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor urna nunc id cursus metus aliquam eleifend mi. Neque volutpat ac tincidunt vitae semper. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Diam ut venenatis tellus in metus vulputate eu scelerisque felis.
-                </p>
-            </div>
-            </>
+        {scholarships.map(s => <Grant key={s.Name} name={s.Name} link={s.Link} story={s.Story} desktop={desktop}/>)}
+        </>
     )
 }
 
-export default Culture
+export default Grants
