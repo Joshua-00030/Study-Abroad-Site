@@ -1,5 +1,5 @@
 .Navbar{
-    background-color: brown;
+    background-color: #c42424;
     color:white;
     max-height: 200px;
     min-height: 4rem;
@@ -8,6 +8,8 @@
     padding-right: 1rem;
 }
 .nav-mobile{
+    max-height: 400px;
+    display: flex;
     align-items: center;
     flex-direction: column;
     padding: 0px;
@@ -27,12 +29,13 @@
     margin: 0px;
     padding: 1rem;
 }
-.right h3:hover, .nav-mobile h3:hover{
+.right h3:hover, .nav-mobile h3:hover, .selected{
     background-color: rgb(123, 39, 39);
 }
 .nav-mobile ul{
     margin-top: 0rem;
     width: inherit;
+    padding: 0px;
 }
 .nav-mobile h3{
     padding: .1rem;

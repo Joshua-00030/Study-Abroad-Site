@@ -1,11 +1,12 @@
 .MainContent{
     color: black;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     min-width: 300px;
     width:95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom:2rem;
+    align-self: center;
 }
 
 .MainContent h2,h1{
@@ -14,19 +15,23 @@
 
 .desktop{
     width: 80%;
-    margin-left: 50px;
 }
 
-.story{
+.story, .inline-story{
     padding-left: .3rem;
     padding-right: .3rem;
-    border-top: .1rem solid;
+    border-top: .075rem solid;
+    text-align: justify;
 }
 .storyDesktop{
     display: flex;
     align-content: center;
     flex-wrap:nowrap;
-    border-top: .1rem solid;
+    border-top: .075rem solid;
+    text-align: justify;
+}
+.story h4, .storyDesktop h4, .inline-story h4{
+    text-align: center;
 }
 .storyImage{
     max-width: 80%;
@@ -38,4 +43,10 @@
 .storyImageDesktop{
     padding: 1rem;
     max-width: 20%;
+    align-self: center;
+}
+.midImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

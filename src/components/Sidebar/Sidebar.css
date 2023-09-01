@@ -4,7 +4,7 @@
     background-color: antiquewhite;
     padding-left: .25rem;
 }
-.Sidebar li, ul{
+.Sidebar li, .Sidebar ul{
     padding: 0px;
     list-style-type: none;
 }
