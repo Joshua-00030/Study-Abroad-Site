@@ -22,7 +22,7 @@ function Tips({ desktop }) {
                 <div>
                     {(desktop ? <h2>Transit system</h2> : <></>)}
                     <p>
-                        In Japan the primary method of travel is the public transportation system. For the majority of your trip this will be the trains, subway and buses. All of these accept payment from an <b><a href="https://www.japan-guide.com/e/e2359_003.html">IC card</a></b>, making them an indispensable resource for any trip there. You can <b>obtain an IC card at most subway stations</b>. They can be recharged using the same machines that you get them from, but you can also refill them at stores, most notably the  common Conbini stores.
+                        In Japan the primary method of travel is the public transportation system. For the majority of your trip this will be the trains, subway and buses. All of these accept payment from an <b><a href="https://www.japan-guide.com/e/e2359_003.html">IC card</a></b>, making them an indispensable resource for any trip there. You can <b>obtain an IC card at most subway and train stations</b>. They can be recharged using the same machines that you get them from, but you can also refill them at stores, most notably the  common Conbini stores.
                     </p>
                     <p>
                         To use the IC cards, you scan them with the terminals on the side as you are walking. You are not supposed to stop walking. If the read fails or if you do not have enough credit on the card the scanning terminal will turn red and not let you though. Don’t worry about this as the terminal will show what it scanned, typically Japanese words and a charge and balance number. <b>At the bottom the terminal will also say the result of the scan in English</b>.
@@ -47,7 +47,7 @@ function Tips({ desktop }) {
                 <div>
                     {(desktop ? <h2>Hotel Services</h2> : <></>)}
                     <p>
-                        If you are visiting multiple areas in Japan an amazing service offered by hotels is the transportation of your luggage between different hotels. This saves you the trip between hotels before you start your day and can be a big help if you have a lot of luggage. Keep in mind this service is done very early in the morning. It is best to drop off your luggage for transportation before you go to bed.
+                        If you are visiting multiple areas in Japan an amazing service offered by hotels is the transportation of your luggage between different hotels. The service is about fairly priced at about $10-20 per suitcase and is the easiest way to transport your luggage. This saves you the trip between hotels before you start your day and can be a big help if you have a lot of luggage. Keep in mind this service is done very early in the morning. It is best to drop off your luggage for transportation at the hotel's front desk before you go to bed 1 or 2 days in advance so your luggage will arrive at your destination before you.
                     </p>
                     <p>
                         Likewise, hotels will often offer to hold your luggage free of charge if you show up before check in time. This helps a lot when traveling, as you may arrive at odd hours.
@@ -63,7 +63,7 @@ function Tips({ desktop }) {
                         On of the biggest hurdles of visiting Japan is using the transit system, specifically reaching your destination using connecting trains and busses. Fortunately, google maps is great at giving you directions and showing accurate connections for public transportation. The main issue you may run into is that not every destination is in English. The majority of the big travel locations will be but if you plan to visit a hidden gem then you may need to know the hiragana writing.
                     </p>
                     <p>
-                        Keep in mind that while the transit system is incredibly quick, you do need to wait for your train. This means simply showing up at the station and checking how to get where you want to go is a bad idea. Always look ahead or be prepared to wait for the next train.
+                        Keep in mind that while the transit system is incredibly quick, you do need to wait for your train. This means simply showing up at the station and checking how to get where you want to go is a bad idea. Always look ahead to find out what time and track your train will arrive on, or be prepared to wait for the next train.
                     </p>
                     <p>
                         For big trips you should plan an arrival hour and check how long it takes to get there 10 minutes earlier and later. You may find the arrival time is the same as you would mostly be waiting for the train or that being a few minutes late will add a lot of travel time as you miss your train. Do the same for the return trip.

@@ -29,8 +29,9 @@
     margin: 0px;
     padding: 1rem;
 }
-.right h3:hover, .nav-mobile h3:hover, .selected{
+.right h3:hover, .left h3:hover, .nav-mobile h3:hover, .selected{
     background-color: rgb(123, 39, 39);
+    cursor: pointer;
 }
 .nav-mobile ul{
     margin-top: 0rem;

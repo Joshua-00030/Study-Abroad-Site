@@ -49,7 +49,7 @@ function Food({ desktop }) {
                 <h2>Noodles</h2>
                 <div>
                     <p>
-                        Ramen shops are common making for quick, low cost comfort food. The broth has a complex flavor, and the noodles have a texture that’s nearly impossible to recreate at home. As the chefs have been working on their technique for years this is no surprise. Those traits combined with speed and consistency are what make these iconic shops so special.
+                        Noodle shops selling udon, ramen, or soba are unbeatable for quick, low cost and delicious comfort food. The broth has a complex flavor, and the noodles have a texture that's nearly impossible to recreate or buy at home! As the chefs have been working on their technique for years this is no surprise. Those traits combined with speed and consistency are what make these iconic shops so special.
                     </p>
                     <p>
                         The first image in the below slide show is ramen from the airport. It Consisted of noodles, seaweed, eggs, green onions, bamboo, and sliced roast pork in tonkatsu broth was sold at the airport.
@@ -91,7 +91,7 @@ function Food({ desktop }) {
                 <h2>Seafood</h2>
                 <div>
                     <p>
-                        The seafood selection is impossible to beat as Japan is an island nation. While I typically avoid seafood this trip really opened my taste buds with their quality shrimp, sashimi, sushi rolls, tempura and even escargot. Combined with the excellent culinary skills I cannot imagine anyone would dislike the seafood prepared here!
+                        The seafood selection is impossible to beat as Japan is an island nation. While I used to avoid seafood except for cooked fish, this trip really opened my taste buds to try new things with their quality shrimp, sashimi, sushi rolls, tempura and even escargot. Combined with the excellent culinary skills I cannot imagine anyone would dislike the seafood prepared here!
                     </p>
                 </div>
 
@@ -125,7 +125,7 @@ function Food({ desktop }) {
                 <h2>Meat Based Dishes</h2>
                 <div>
                     <p>
-                        Japan does meat differently here. While they do have some places offering American style steaks and hamburgers, the majority of their meat dishes feature small or thin sliced meats that are cooked quickly. This lets them retain their moisture while also having a crisp texture. The meat is typically served with a side of rice or mixed in with some noodles in yakisoba. Sometimes the meat will come in a sauce for meals such as curry.
+                        Japan does meat differently than America. While they do have some places offering American style steaks and hamburgers, the majority of their meat dishes feature small or thin sliced meats that are cooked quickly. This lets them retain their moisture while also having a crisp texture. The meat is typically served with a side of rice or mixed in with some noodles in yakisoba. Sometimes the meat will come in a sauce for meals such as curry.
                     </p>
                 </div>
                 <div className="swiper-container">
@@ -166,10 +166,10 @@ function Food({ desktop }) {
                 <h2>Fun & Convenient Food</h2>
                 <div>
                     <p>
-                        Last on the list are the options less thought of. As mentioned in the tips section, conbini’s offer a large array of prepared meals. This can range from sandwiches to full curry dishes. I had quite a few meals in this manner, and they were all very tasty. I highly recommend them for days when you don’t have much time to stop places or when you just want to eat something quietly at home without having to cook. There are also many food stands with desserts and snacks similar to how a carnival or amusement park would be. I enjoyed the strawberry mochi stand and crepe shops. Again, these places are very competitively priced and high quality.
+                        Last on the list are the options less thought of. As mentioned in the tips section, conbinis offer a large array of prepared meals. This can range from sandwiches to full curry dishes. I had quite a few meals in this manner, and they were all very tasty. I highly recommend them for days when you don't have much time to stop places or when you just want to eat something quietly at home without having to cook. There are also many food stands with desserts and snacks similar to how a carnival or amusement park would be. I enjoyed the strawberry mochi stand and crepe shops. Again, these places are very competitively priced and high quality.
                     </p>
                     <p>
-                        Finally, there are more experience based food and drink places. Maid café’s where the hostess spend time talking to their guests and cat café’s where you have all you can drink drinks while spending time with plenty of cats. You can buy treats for the cats or play their various arcade machines they have or read some manga or other literature they have available. These places can have time based pricing depending upon the location.
+                        Finally, there are more experience based food and drink places. <strong>Maid cafes</strong>  where the hostess spend time talking to their guests and <strong>cat cafes</strong> where you have all you can drink drinks while spending time with plenty of cats. You can buy treats for the cats or play their various arcade machines they have or read some manga or other literature they have available. These places can have time based pricing depending upon the location.
                     </p>
                 </div>
 

@@ -80,7 +80,7 @@ function Nature({ desktop }) {
                 <h2>Iwatayama Monkey Park</h2>
                 <div>
                     <p>
-                    At the top of the Arashiyama forest trail we walked was Iwatayama Monkey Park. Here there were free roaming Japanese macaques, a small, brown, and fluffy type of monkey. Before reaching the top, we came across signs that explained how to avoid agitating the monkeys, such as not looking them in the eye.\
+                    At the top of the Arashiyama forest trail we walked was Iwatayama Monkey Park. Here there were free roaming Japanese macaques, a small, brown, and fluffy type of monkey. Before reaching the top, we came across signs that explained how to avoid agitating the monkeys, such as not looking them in the eye.
                     </p>
                     <p>
                         Up top, there was a stunning overlook of Kyoto, and it was easy to point out Kyoto Tower. While they did keep their distance, they were enjoying and jumping on a lot of the benches and even binoculars. It was funny as the young monkeys would cause trouble climbing on things and the zookeepers would walk over to maintain the peace and order of the park, resulting in the monkeys running away. The monkeys must have found this humorous as they kept coming back to cause mischief. There was a feeding house that they kept a close watch on, where people could buy apples and peanuts to feed the monkeys.  

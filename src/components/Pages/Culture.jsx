@@ -171,7 +171,7 @@ function Culture({ desktop }) {
                     </p>
                     <h4>Hospitality and Pride</h4>
                     <p>
-                        Hospitality in Japan is something else. The employees truly make you feel like a valued customer and will be happy to help. Restaurant owners and chefs are eager to please and dread customers having a bad experience. They are so confident in their work that it is insulting to tell a chef that they are good at cooking, as if you expected otherwise. Convenience store workers want you to find everything you need and will be happy to help you find other places if you need items they do not offer.
+                        Hospitality in Japan is something else. The employees truly make you feel like a valued customer and will be happy to help. Restaurant owners and chefs are eager to please and dread customers having a bad experience. They are so confident in their work that it is insulting to tell a chef that they are good at cooking, as if you expected otherwise. Store clerks welcome and appreciate customers in the store with "いっらしゃいませ！" and want you to find everything you need and will be happy to help you find other places if you need items they do not offer. For example, was looking for a matcha bowl and a helpful clerk let me know where I could find a smaller sized one than the family sized one the store had.
                     </p>
                     <h4>Recreation on Every Corner</h4>
                     <p>
